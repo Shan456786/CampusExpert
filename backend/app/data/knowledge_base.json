@@ -1,0 +1,265 @@
+[
+  {
+    "id": "attendance_001",
+    "category": "attendance",
+    "question": "What is the minimum attendance requirement?",
+    "answer": "Students are generally required to maintain a minimum of 75% attendance in each course to be eligible to appear for the end-semester exam. Attendance between 65% and 75% may be condoned by the department committee only for genuine, documented reasons (medical emergencies, family emergencies, or university-approved activities). Students below 65% attendance are typically detained and not permitted to appear for that course's exam. Always confirm the current semester's exact thresholds with your class coordinator, as these can be revised.",
+    "keywords": [
+      "attendance", "minimum attendance", "75%", "attendance requirement",
+      "attendance shortage", "condonation", "detained", "eligibility",
+      "attendance percentage"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "attendance_002",
+    "category": "attendance",
+    "question": "What should I do if I miss classes due to illness or a medical emergency?",
+    "answer": "If you miss classes due to illness, submit a medical certificate along with a leave/condonation application to your class coordinator or the academic office as soon as possible (ideally within a week of resuming classes). Approved medical leave is considered when the attendance committee reviews condonation requests, but it does not automatically restore your attendance percentage - you still need to attend enough of the remaining classes to reach the eligible threshold, or get formal condonation approval before the exam eligibility cutoff.",
+    "keywords": [
+      "attendance shortage", "medical leave attendance", "sick", "missed classes",
+      "condonation form", "leave application attendance", "missed exam attendance"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "academics_001",
+    "category": "academics",
+    "question": "How does the grading and CGPA system work?",
+    "answer": "Courses are typically graded on a 10-point scale (S, A, B, C, D, E, F, with S being the highest). Your semester GPA is the credit-weighted average of grade points earned that semester, and CGPA is the cumulative credit-weighted average across all completed semesters. Passing usually requires at least a 'D' grade or above in each course; an 'F' means you'll need to reappear or re-register for that course depending on university policy.",
+    "keywords": [
+      "cgpa", "grading system", "grade points", "gpa", "credits",
+      "how is cgpa calculated", "grades"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "academics_002",
+    "category": "academics",
+    "question": "How do I register for courses each semester?",
+    "answer": "Course registration typically happens through the Fully Flexible Credit System (FFCS) portal before each semester begins. You select your core and elective courses within the registration window, subject to seat availability and prerequisite checks. An add/drop window is usually open for the first one to two weeks of the semester if you need to change electives after classes start.",
+    "keywords": [
+      "ffcs", "course registration", "register for courses", "elective",
+      "credit registration", "add drop courses", "how do i register"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "hostel_001",
+    "category": "hostel",
+    "question": "What are the hostel gate timings and rules?",
+    "answer": "Hostel gates typically close between 9:00 PM and 9:30 PM on weekdays, with a slightly later curfew (around 10:00 PM) on weekends, though exact timings vary by hostel block and are set by hostel administration. Students returning after curfew generally need prior permission or an out-pass; repeated late entries without permission can lead to disciplinary action. Overnight outings usually require an out-pass signed by a warden or hostel authority in advance.",
+    "keywords": [
+      "hostel rules", "gate timings", "curfew", "hostel gate closing",
+      "hostel timing", "in time", "out pass", "hostel gate"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "hostel_002",
+    "category": "hostel",
+    "question": "How do I request a hostel room change or report a roommate issue?",
+    "answer": "Room change requests are usually submitted through the hostel office or an online hostel management portal, along with a reason for the request. Genuine roommate conflicts or maintenance issues are prioritized. Room changes are typically processed at the start of a semester or during a designated reshuffle window, rather than mid-semester, except in urgent cases.",
+    "keywords": [
+      "hostel allotment", "room change", "roommate", "hostel block",
+      "change room", "hostel application"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "mess_001",
+    "category": "mess",
+    "question": "What are the mess timings and how do I check the menu?",
+    "answer": "Mess timings are generally: breakfast around 7:30-9:30 AM, lunch around 12:00-2:00 PM, snacks around 4:30-5:30 PM, and dinner around 7:30-9:30 PM, though exact slots vary by hostel/mess hall. The weekly menu is usually posted on notice boards in the mess hall and may also be shared through the hostel's official communication channels or app.",
+    "keywords": [
+      "mess menu", "mess timings", "breakfast lunch dinner", "mess food",
+      "meal timings", "what's for lunch", "mess hall"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "mess_002",
+    "category": "mess",
+    "question": "Can I get a mess fee refund if I'm away for a few days?",
+    "answer": "Most hostels offer a mess rebate/refund for extended absences (typically a minimum number of consecutive days, often 3 or more), provided you submit a leave notice to the mess committee or hostel office in advance. Short, unplanned absences are usually not eligible for a refund. Check with your hostel's mess committee for the exact rebate policy and minimum notice period.",
+    "keywords": [
+      "mess fee", "mess refund", "mess bill", "leave mess", "mess rebate"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "transport_001",
+    "category": "transport",
+    "question": "What are the campus bus routes and timings?",
+    "answer": "Campus buses typically run on fixed routes connecting the campus to nearby residential areas, the railway station, and the airport, with multiple trips through the day on weekdays and a reduced schedule on weekends/holidays. Exact routes and timings are usually published by the transport office at the start of each semester and posted at bus stops and on the university transport page.",
+    "keywords": [
+      "bus routes", "bus timing", "campus bus", "bus schedule", "shuttle",
+      "buses"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "transport_002",
+    "category": "transport",
+    "question": "How do I apply for a bus pass?",
+    "answer": "Bus passes are usually issued through the transport office, either at the start of the semester or on request, often requiring your student ID and a small administrative fee. Day passes or single-trip tickets may also be available for occasional travel without a full pass.",
+    "keywords": [
+      "bus pass", "transport pass", "apply for bus pass", "monthly pass"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "faculty_001",
+    "category": "faculty",
+    "question": "How do I contact a faculty member or find their office hours?",
+    "answer": "Faculty contact details and designated consultation/office hours are usually listed on the school or department's faculty directory page, and often shared directly in the course syllabus at the start of the semester. Emailing to request a specific meeting time is generally the most reliable way to reach a faculty member outside their posted hours.",
+    "keywords": [
+      "contact faculty", "office hours", "faculty consultation",
+      "meet professor", "faculty availability", "faculty directory"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "faculty_002",
+    "category": "faculty",
+    "question": "Who do I talk to if I have an academic problem or grievance?",
+    "answer": "Most students are assigned a faculty mentor or academic advisor at the start of their program who can help with course planning and general academic concerns. For formal grievances (academic disputes, grading concerns, etc.), universities typically have a grievance redressal committee or an ombudsperson you can escalate to if the issue isn't resolved at the department level.",
+    "keywords": [
+      "faculty mentor", "grievance", "academic advisor", "faculty guide",
+      "complaint against faculty"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "medical_001",
+    "category": "medical",
+    "question": "What medical services are available on campus?",
+    "answer": "The campus health/medical centre typically provides basic outpatient care, first aid, a resident doctor or nurse during working hours, and a tie-up with a nearby hospital for emergencies or specialist care. It's usually open extended hours on weekdays with reduced hours on weekends; check the exact schedule and emergency contact number posted at the centre or on the university website.",
+    "keywords": [
+      "medical centre", "health center", "campus doctor", "clinic",
+      "healthcare", "sick campus", "medical services"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "medical_002",
+    "category": "medical",
+    "question": "How do I apply for medical leave?",
+    "answer": "For medical leave, visit the campus health centre first if possible to get an official medical certificate, then submit a leave application (with the certificate attached) to your class coordinator, warden, or the academic office depending on the duration. Extended medical leave affecting exams or major deadlines usually needs to go through the academic office for formal approval and any necessary rescheduling.",
+    "keywords": [
+      "medical leave", "sick leave application", "leave for illness",
+      "medical certificate"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "library_001",
+    "category": "library",
+    "question": "What are the library timings?",
+    "answer": "The central library is typically open from around 8:00 AM to 10:00 PM on weekdays, with somewhat shorter hours on weekends, and may extend hours during exam periods. Access usually requires your student ID card, and some sections (like reference or reading rooms) may have separate rules for entry.",
+    "keywords": [
+      "library timings", "library hours", "library access", "library open",
+      "when does library close"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "library_002",
+    "category": "library",
+    "question": "How many books can I borrow and how do I renew them?",
+    "answer": "Undergraduate students can typically borrow around 3-5 books at a time for a loan period of about 14 days, with renewal usually possible online or at the counter if no one else has reserved the book. Late returns usually incur a small daily fine per book, so it's worth renewing before the due date if you need more time.",
+    "keywords": [
+      "borrow books", "library renewal", "book issue", "library fine",
+      "renew book"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "examinations_001",
+    "category": "examinations",
+    "question": "Where do I find the exam schedule and hall ticket?",
+    "answer": "Exam timetables are usually published by the examination cell/controller of examinations a few weeks before the exam period, and hall tickets (admit cards) become available for download through the student portal shortly before exams begin, usually contingent on having no fee dues or attendance shortfalls.",
+    "keywords": [
+      "exam schedule", "hall ticket", "exam timetable", "when are exams",
+      "admit card", "examinations"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "examinations_002",
+    "category": "examinations",
+    "question": "How do I request a revaluation or recheck of my exam answer sheet?",
+    "answer": "If you want to challenge a grade, most universities allow you to apply for revaluation or a photocopy of your answer script within a set window after results are declared (often about 1-2 weeks), usually for a small fee per subject. The revised grade after revaluation can go up, stay the same, or occasionally go down, depending on university policy - check the specific rules before applying.",
+    "keywords": [
+      "revaluation", "recheck", "grade dispute", "answer sheet recheck",
+      "challenge exam grade"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "clubs_001",
+    "category": "clubs",
+    "question": "How do I join a club or student chapter?",
+    "answer": "Most clubs and student chapters (technical, cultural, and professional societies) recruit new members at the start of the academic year, typically through an open interest form, an interview, or a small task/audition depending on the club. Keep an eye on club social media pages and campus notice boards around the semester start for recruitment announcements.",
+    "keywords": [
+      "join club", "clubs and chapters", "student clubs", "extracurricular",
+      "how to join a club"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "clubs_002",
+    "category": "clubs",
+    "question": "What kinds of clubs and chapters are available?",
+    "answer": "Campus clubs generally fall into a few broad categories: technical/professional chapters (coding, robotics, IEEE-style societies), cultural clubs (music, dance, drama, art), and special-interest or social-service clubs. Each school or department may also run its own subject-specific club alongside university-wide ones.",
+    "keywords": [
+      "technical clubs", "cultural clubs", "sports clubs", "list of clubs",
+      "chapters"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "placements_001",
+    "category": "placements",
+    "question": "How does the campus placement process work?",
+    "answer": "The placement process is usually coordinated by a dedicated placement/career development cell, which invites companies for pre-placement talks and drives, typically in the final year (and sometimes for internships in earlier years). Eligibility usually depends on a minimum CGPA and no active backlogs, and the process generally includes an aptitude test, technical/HR interviews, and sometimes a group discussion, varying by company.",
+    "keywords": [
+      "placement process", "campus placement", "eligibility for placement",
+      "placement drive", "how do placements work"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  },
+  {
+    "id": "placements_002",
+    "category": "placements",
+    "question": "Where can I get help with my resume or interview preparation?",
+    "answer": "The placement/career development cell typically offers resume review sessions, mock interviews, and aptitude test practice resources ahead of placement season. Many schools also have dedicated placement coordinators (student representatives) who can point you to templates, previous years' interview experiences, and preparation groups.",
+    "keywords": [
+      "resume help", "interview preparation", "placement cell contact",
+      "career resources", "mock interview"
+    ],
+    "source": "Campus Expert Demo Knowledge Base",
+    "source_type": "demo"
+  }
+]

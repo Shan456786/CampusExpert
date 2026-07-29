@@ -1,0 +1,24 @@
+[
+  {
+    "id": "important_dates_academic_calendar",
+    "title": "Academic Calendar Tool",
+    "keywords": ["academic calendar", "semester dates", "fall semester dates", "winter semester dates", "important dates"],
+    "aliases": ["when does the semester start", "when does the semester end", "when are exams", "when is registration"],
+    "content": "VIT-AP does not publish one static list of semester dates; the official Academic Calendar page provides an interactive year-and-semester selector that shows the exact schedule (registration windows, class start/end dates, FAT exam dates, breaks) once a year and semester are selected. Because these dates change every academic cycle, check that tool directly, or the VTOP portal, rather than relying on a fixed date here.",
+    "category": "important_dates",
+    "source": "https://vitap.ac.in/academiccalender",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "important_dates_admissions_cycle",
+    "title": "Admissions and VITEEE Timeline",
+    "keywords": ["viteee dates", "admission dates", "application deadline", "entrance exam dates", "counselling dates"],
+    "aliases": ["when is viteee", "when does admission open", "when is the application deadline", "counselling schedule"],
+    "content": "VIT-AP's admission cycle (VITEEE entrance exam, application windows, and counselling dates) is announced fresh each year on the university's Admissions section and Application Process page, with results and updates posted as banner notices on the homepage. These dates are not fixed year to year, so check vitap.ac.in's Admissions pages directly for the current cycle rather than a date captured here.",
+    "category": "important_dates",
+    "source": "https://vitap.ac.in/application-process",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

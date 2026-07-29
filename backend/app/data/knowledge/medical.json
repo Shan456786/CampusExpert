@@ -1,0 +1,13 @@
+[
+  {
+    "id": "medical_healthcenter",
+    "title": "Health Centre and Medical Care",
+    "keywords": ["medical", "health center", "health centre", "doctor", "hospital", "emergency", "ambulance", "sick", "illness"],
+    "aliases": ["is there a doctor on campus", "campus hospital", "emergency medical help", "ambulance number", "what do I do if I get sick"],
+    "content": "VIT-AP has an on-campus Health Centre providing 24/7 outpatient services with a 10-bed facility, staffed by resident doctors (Dr. Surya Avinash Ramanapudi, Dr. Lakshmi Lavanya CH) and nursing staff. The university has an ambulance tie-up with Manipal Hospitals, Vijayawada, for emergencies. Campus emergency ambulance contact: 7997965624.",
+    "category": "medical",
+    "source": "https://vitap.ac.in/healthcare",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

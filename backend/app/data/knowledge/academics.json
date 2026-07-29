@@ -1,0 +1,24 @@
+[
+  {
+    "id": "academics_ffcs",
+    "title": "Fully Flexible Credit System (FFCS)",
+    "keywords": ["ffcs", "credit system", "course registration", "branch change", "minor", "honours", "timetable", "elective"],
+    "aliases": ["how do I pick my courses", "elective registration", "double major option", "can I switch branches", "credit based system", "choosing faculty for a course"],
+    "content": "VIT-AP uses the Fully Flexible Credit System (FFCS), letting students choose their own courses, class time slots, number of courses per semester, and preferred faculty when building their timetable. FFCS supports interdisciplinary courses, undergraduate research experience, double major/minor/honours options, and a branch-change option in B.Tech at the end of the first year.",
+    "category": "academics",
+    "source": "https://vitap.ac.in/ffcs",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "academics_schools",
+    "title": "Schools and Departments",
+    "keywords": ["schools", "departments", "scope", "sense", "smec", "sas", "vish", "vsl", "vsb", "sbst", "which school", "branches"],
+    "aliases": ["what branches does VIT-AP offer", "list of engineering schools", "which department am I in", "school of computer science", "school of law"],
+    "content": "VIT-AP is organized into schools: School of Computer Science and Engineering (SCOPE), School of Electronics Engineering (SENSE), School of Mechanical Engineering (SMEC), School of Advanced Sciences (SAS), School of Social Sciences and Humanities (VISH), School of Law (VSL), School of Business (VSB), and School of Bio Sciences and Technology (SBST).",
+    "category": "academics",
+    "source": "https://vitap.ac.in/allschools",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

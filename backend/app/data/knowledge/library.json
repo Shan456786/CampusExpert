@@ -1,0 +1,24 @@
+[
+  {
+    "id": "library_hours",
+    "title": "Library Hours",
+    "keywords": ["library hours", "library timing", "opening hours", "when is library open", "library open", "library close"],
+    "aliases": ["what time does library open", "library closing time", "is library open on sunday", "library working hours"],
+    "content": "The VIT-AP University Library is open from 9:00 AM to 7:30 PM on working days, and from 9:00 AM to 5:00 PM on Sundays, Mondays, and other holidays.",
+    "category": "library",
+    "source": "https://vitap.ac.in/newlibrary",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "library_overview",
+    "title": "Library Location and Resources",
+    "keywords": ["library location", "library", "central library", "library collection", "library books", "where is the library", "library facilities"],
+    "aliases": ["where is the library located", "how many books does library have", "law library", "library automation system", "how do I borrow a book"],
+    "content": "The VIT-AP University Library is a centrally air-conditioned facility within the main VIT-AP campus in Amaravati (Inavolu, near Vijayawada), spread across approximately 1,500 sq. m with a seating capacity of 500. It holds more than 5,700 titles and 25,000+ volumes of text and reference books, plus print and e-journals, e-books, back volumes, and NPTEL videos. The library uses KOHA automation software with RFID self-service kiosks for issue and return. A separate VSL Library serves the School of Law, located in Administrative Block-II. Exact directions and campus maps are available at vitap.ac.in.",
+    "category": "library",
+    "source": "https://vitap.ac.in/newlibrary",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

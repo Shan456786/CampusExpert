@@ -1,0 +1,13 @@
+[
+  {
+    "id": "campus_services_bank",
+    "title": "Banking and ATM Facilities",
+    "keywords": ["bank", "atm", "banking", "cash withdrawal", "indian bank", "money", "deposit"],
+    "aliases": ["is there a bank on campus", "nearest atm", "where can I withdraw cash", "banking facility on campus", "bank account for students"],
+    "content": "VIT-AP has an on-campus Indian Bank branch (VIT AP Campus Amaravathi, IFSC: IDIB000V144) offering account management, fund transfers, and bill payments. Indian Bank ATMs are located in Academic Block 1 (Ground Floor, G02), Central Block (Ground Floor, G08), and Academic Block 2 (Ground Floor, G12).",
+    "category": "campus_services",
+    "source": "https://vitap.ac.in/bank-and-atm",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

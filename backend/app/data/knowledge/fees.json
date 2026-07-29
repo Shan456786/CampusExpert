@@ -1,0 +1,24 @@
+[
+  {
+    "id": "fees_scholarships",
+    "title": "Merit Scholarships",
+    "keywords": ["scholarship", "merit scholarship", "fee waiver", "gv scholarship", "district topper", "board topper"],
+    "aliases": ["how can I get a scholarship", "merit based fee waiver", "topper scholarship", "financial aid", "scholarship for PG students"],
+    "content": "VIT-AP offers merit scholarships including the GV Merit Scholarship (100% scholarship for any board topper in the country, for UG B.Com/B.A. programmes) and the Tmt. Rajeswari Ammal Merit Scholarship (50% for any district topper, with an additional 25% for a girl topper, making it 75%). For PG non-engineering programmes, the G.V. PG Merit Scholarship offers 100% for candidates with a CGPA of 9.0 or 90%+ in their qualifying UG degree, and the Rajeswari PG Merit Scholarship offers 50% (75% for girl candidates) for 8.0 CGPA/80%+; these PG scholarships apply to M.Sc Physics and M.Sc Chemistry admissions.",
+    "category": "fees",
+    "source": "https://vitap.ac.in/fees-and-scholarships",
+    "source_type": "official",
+    "last_updated": "2026-07-24"
+  },
+  {
+    "id": "fees_structure",
+    "title": "Programme Fee Structure",
+    "keywords": ["fee structure", "tuition fee", "program fees", "btech fees", "how much does it cost", "course fees"],
+    "aliases": ["how much is the tuition", "btech fee amount", "cost of the programme", "annual fees", "MBA fee structure"],
+    "content": "VIT-AP publishes detailed, programme-specific fee structures (B.Tech, Integrated M.Tech, MBA, M.Sc, BBA, law, and other programmes) on its official Fees & Scholarships page. Because exact fee amounts vary by programme and are updated for each admission cycle, check the current figures directly at the source link below rather than relying on a fixed number here.",
+    "category": "fees",
+    "source": "https://vitap.ac.in/fees-and-scholarships",
+    "source_type": "official",
+    "last_updated": "2026-07-24"
+  }
+]

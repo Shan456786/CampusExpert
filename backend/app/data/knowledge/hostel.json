@@ -1,0 +1,24 @@
+[
+  {
+    "id": "hostel_overview",
+    "title": "Hostel Facilities",
+    "keywords": ["hostel", "hostel rooms", "hostel facilities", "ac rooms", "hostel amenities", "hostel life"],
+    "aliases": ["what are hostel rooms like", "hostel amenities", "is there wifi in hostel", "hostel security", "hostel warden"],
+    "content": "VIT-AP hostels are secured facilities with resident wardens available 24x7; only VITians and authorized personnel are allowed inside. Rooms come with a cot, chair, study table, and cupboard, with both AC and non-AC options available, allotted first-come-first-served once the hostel fee is paid in full. Hostels include amenities such as a night canteen, indoor games (table tennis, foosball), Wi-Fi, laundry service, and provision stores for essentials like mattresses, buckets, and stationery.",
+    "category": "hostel",
+    "source": "https://vitap.ac.in/hostels",
+    "source_type": "official",
+    "last_updated": "2026-07-25"
+  },
+  {
+    "id": "hostel_fees",
+    "title": "Hostel and Mess Fee Structure",
+    "keywords": ["hostel fee", "hostel fees", "hostel cost", "hostel admission fee", "caution deposit", "hostel refund"],
+    "aliases": ["how much does hostel cost", "hostel deposit amount", "hostel refund policy", "upgrading hostel room", "hostel withdrawal policy"],
+    "content": "A non-refundable hostel admission fee of Rs. 15,000 applies when joining hostels, plus a refundable caution deposit of Rs. 15,000. The hostel fee is inclusive of room, mess, and laundry (up to 44 washes across 10 months) and must be paid online. Upgrading room or mess category requires paying the full differential fee in the Fall semester, or 50% of it in the Winter semester; no refund is given for downgrading, and hostel fees are subject to annual escalation. The full Hostel Policy, Code of Conduct, and Booking/Withdrawal/Refund Policy documents are published as PDFs on the official Hostels page.",
+    "category": "hostel",
+    "source": "https://vitap.ac.in/hostels",
+    "source_type": "official",
+    "last_updated": "2026-07-25"
+  }
+]

@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Campus Expert theme tokens - every page/component's arbitrary hex
+     colors (bg-[#F8FAFC], text-[#111827], etc.) were swapped to reference
+     these instead (bg-[var(--surface-subtle)], text-[var(--text-primary)]).
+     Values below are exactly the hex codes the app already used, so light
+     mode is pixel-identical to before this change - only the .dark block
+     is new. Toggling the "dark" class on <html> (see settings/page.tsx
+     and components/ThemeInit.tsx) is what switches between the two.
+
+     Accent colors (#6D28D9 purple and its shades), Google's brand colors
+     on the OAuth buttons, and a few deliberately-always-dark elements
+     (modal scrims, code blocks, the user's chat bubble) were left as
+     literal hex - they're designed to look the same in both themes, so
+     they were never converted to variables. */
+  --surface: #ffffff;
+  --surface-subtle: #f8fafc;
+  --border: #e5e7eb;
+  --border-strong: #d1d5db;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-tertiary: #374151;
+  --text-faint: #9ca3af;
+
+  /* Tells the browser which palette to use for chrome it renders itself -
+     native scrollbar arrows/track on Windows, form control chrome (date
+     pickers, checkboxes), etc. - so that native UI matches the app's own
+     light theme instead of defaulting to the OS's light/dark preference
+     regardless of what theme is actually active on the page. */
+  color-scheme: light;
+}
+
+.dark {
+  --background: #0b0f19;
+  --foreground: #f3f4f6;
+
+  --surface: #151b29;
+  --surface-subtle: #0b0f19;
+  --border: #232b3d;
+  --border-strong: #2f3a52;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-tertiary: #cbd5e1;
+  --text-faint: #6b7280;
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* app/layout.tsx loads Geist via next/font and exposes it as
+     --font-geist-sans, and the @theme block below maps that to
+     --font-sans - this was never actually referenced here, so every page
+     was silently falling through to the Arial/Helvetica fallback instead
+     of the intended typeface. Arial is kept as the fallback for the brief
+     moment before the web font loads (or if it fails to), so this is a
+     typography fix, not a behavior change. */
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Brand-colored text selection instead of the browser's default blue -
+   small detail, but every other accent in the app (buttons, links, focus
+   rings) already uses this purple, so the default OS blue stood out as
+   the one unbranded interaction left. */
+::selection {
+  background-color: #6d28d9;
+  color: #ffffff;
+}
+
+/* fadeIn - referenced across the app (auth cards, dropdown menus, page
+   sections, route transitions - see app/template.tsx) as
+   animate-[fadeIn_0.4s_ease-out]/animate-[fadeIn_0.15s_ease-out]. Tailwind
+   v4 has no config file to declare arbitrary keyframes in, so it has to be
+   defined here directly - without it every one of those animate-[fadeIn...]
+   utility classes silently does nothing. */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* shimmer - the skeleton-loader sweep animation, see
+   components/ui/Skeleton.tsx. */
+@keyframes shimmer {
+  from {
+    background-position: 150% 0;
+  }
+  to {
+    background-position: -50% 0;
+  }
+}
+
+/* Respect users who've asked their OS to reduce motion - the loading
+   states below (skeletons, page transitions) still show, just without
+   the animated sweep/fade motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Baseline keyboard-focus ring, app-wide.
+   components/ui/Button.tsx, components/ui/Card.tsx, and a handful of
+   individually-styled controls (settings toggle, form inputs via their
+   focus-within wrapper) already define their own on-brand focus-visible
+   ring and take precedence over this by CSS specificity. Everything else
+   - nav links, footer links, dropdown menu items, icon-only buttons,
+   quick-nav links - was falling back to whatever the browser's default
+   outline happens to be: inconsistent between browsers, not aware of dark
+   mode, and not on-brand. This single rule gives every remaining
+   interactive element the same purple ring instead, only on keyboard
+   focus (:focus-visible skips showing it on a mouse click), so tabbing
+   through any page now looks and behaves the same everywhere. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible,
+[role="menuitem"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #6d28d9;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar - thin, theme-aware, matches the app's own border/
+   surface tokens instead of the OS default. Applies everywhere
+   (`overflow-y-auto` chat message list, sidebar conversation list, mobile
+   menus, the whole page) since none of them had any scrollbar styling
+   before. Firefox uses the two `scrollbar-*` properties; everything else
+   uses the `::-webkit-scrollbar*` pseudo-elements. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--border-strong);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-faint);
+}

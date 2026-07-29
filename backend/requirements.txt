@@ -1,0 +1,36 @@
+# Web framework and server
+fastapi
+uvicorn[standard]
+
+# Request/response validation (used by app/schemas)
+pydantic
+
+# Used by app/services/answer_generator.py: httpx calls the OpenRouter API,
+# python-dotenv loads OPENROUTER_API_KEY/OPENROUTER_MODEL from backend/.env.
+httpx
+python-dotenv
+
+# ---------------------------------------------------------------------------
+# NOT required to run the live app anymore.
+#
+# Retrieval is now deterministic keyword/intent matching over a
+# hand-authored JSON knowledge base (app/data/knowledge_base.json,
+# app/services/knowledge_retriever.py) - no embeddings, no vector
+# similarity, no ML model. sentence-transformers, scikit-learn, and numpy
+# (previously required for semantic search and for serializing embeddings
+# as SQLite BLOBs) are no longer imported by anything on the live request
+# path, and neither are trafilatura/beautifulsoup4/lxml (only used by the
+# now-unused crawl-and-embed pipeline in app/ingestion/, ingest.py).
+#
+# Only reinstall these if you specifically want to run the old pipeline
+# (app/ingestion/, ingest.py, app/services/semantic_search.py,
+# app/services/hybrid_retriever.py) - it's still on disk, just disconnected
+# from app/api/chat.py.
+#
+#   sentence-transformers
+#   scikit-learn
+#   numpy
+#   trafilatura
+#   beautifulsoup4
+#   lxml
+# ---------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "mess_venues",
+    "title": "Campus Dining and Food Venues",
+    "keywords": ["mess", "food", "cafeteria", "canteen", "dining", "food street", "rockplaza", "campus food"],
+    "aliases": ["where can I eat on campus", "food court options", "canteen options", "campus restaurants", "places to eat besides mess"],
+    "content": "Campus dining at VIT-AP includes several venues beyond the hostel mess: Rockplaza, Swagat, Maggie Hotspot, Food Street (with outlets like Zuzu, Oasis, and CS), Bits and Bytes, and a general Canteen. Hostel mess service itself is bundled into the hostel fee (room + mess + laundry) and covers regular meals for resident students; see the hostel fee structure for cost details.",
+    "category": "mess",
+    "source": "https://vitap.ac.in/cafeteria",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "mess_timings_note",
+    "title": "Mess Meal Timings",
+    "keywords": ["mess timings", "mess timing", "breakfast time", "lunch time", "dinner time", "meal timings"],
+    "aliases": ["what time is breakfast", "what time is dinner", "meal schedule", "when does mess open"],
+    "content": "Specific mess meal timings (breakfast, lunch, snacks, dinner) are not published on the public VIT-AP website. Current timings are posted on hostel notice boards and communicated by the hostel mess office directly to residents, since they can vary by hostel block or semester.",
+    "category": "mess",
+    "source": "https://vitap.ac.in/hostels",
+    "source_type": "unverified",
+    "last_updated": "2026-07-25"
+  }
+]

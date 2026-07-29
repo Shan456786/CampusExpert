@@ -1,0 +1,13 @@
+[
+  {
+    "id": "examinations_coe",
+    "title": "Centre of Examinations (COE)",
+    "keywords": ["exam", "examination", "fat", "final assessment test", "transcripts", "revaluation", "results", "coe", "certificate"],
+    "aliases": ["how do I get my transcripts", "exam cell contact", "revaluation process", "degree certificate", "when are semester exams", "paper recheck"],
+    "content": "The Centre of Examinations (COE) schedules and conducts the Final Assessment Test (FAT) for all programmes, handles central evaluation and result publication, and issues grade certificates, consolidated statements of grades, and provisional certificates. COE also manages transcripts, degree certificates, rank lists/gold medalist lists, paper-seeing and revaluation requests, and CGPA-to-percentage equivalence certificates. Contact: helpdesk.coe@vitap.ac.in for general queries and background verification, or transcript.services@vitap.ac.in for transcripts and certificates.",
+    "category": "examinations",
+    "source": "https://vitap.ac.in/coe",
+    "source_type": "official",
+    "last_updated": "2026-05-25"
+  }
+]

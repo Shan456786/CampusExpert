@@ -1,0 +1,24 @@
+[
+  {
+    "id": "faculty_directory",
+    "title": "Faculty Directory and Contact Lookup",
+    "keywords": ["faculty", "professor", "teacher", "hod", "faculty directory", "faculty contact", "who teaches"],
+    "aliases": ["how do I contact a professor", "find a faculty member", "who is the HOD", "faculty search", "list of professors"],
+    "content": "VIT-AP does not publish one single flat faculty contact list; each school maintains its own faculty directory page (School of Computer Science and Engineering, School of Electronics Engineering, School of Mechanical Engineering, School of Advanced Sciences, School of Social Sciences and Humanities, School of Law, School of Business, and School of Bio Sciences and Technology), and the university site has a faculty search box (search by name or research area) at the top of every page. For a specific professor's email, cabin location, or office hours, use the Faculty page under your programme's school, or the site-wide faculty search - individual names and designations change too often to list reliably in a static knowledge base entry.",
+    "category": "faculty",
+    "source": "https://vitap.ac.in/allfaculty",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "faculty_academic_leadership",
+    "title": "Academic Leadership and Academic Council",
+    "keywords": ["academic council", "academic leadership", "dean", "vice chancellor", "leadership"],
+    "aliases": ["who runs the university", "who is the vice chancellor", "academic leadership team", "school deans"],
+    "content": "VIT-AP publishes its Academic Council membership and university Academic Leadership (Vice Chancellor, Registrar, school Deans, and senior academic leadership) on dedicated pages rather than a single directory - see the Academic Council page for council composition and the Academic Leadership document for current leadership names and designations, since these change with each academic cycle and shouldn't be treated as fixed here.",
+    "category": "faculty",
+    "source": "https://vitap.ac.in/academic-council",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

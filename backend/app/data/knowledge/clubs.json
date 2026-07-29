@@ -1,0 +1,13 @@
+[
+  {
+    "id": "clubs_overview",
+    "title": "Student Clubs and Chapters",
+    "keywords": ["clubs", "chapters", "student clubs", "extracurricular", "technical clubs", "ieee", "acm", "gfg"],
+    "aliases": ["what clubs can I join", "student organizations", "technical societies", "extracurricular activities", "how do I join a club"],
+    "content": "VIT-AP has more than 70 student clubs and chapters spanning Technical, Non-Technical, Regional, Professional, and Social Outreach categories. Examples include the ACM Student Chapter, IEEE Student Branch, Computer Society of India, GeeksforGeeks VIT-AP Student Chapter, Machine Learning Club, Open Source Community: VIT-AP, NextGen Cloud Club, SEDS Aurora, and the Uddeshya social outreach club, among many others covering technology, culture, and social causes.",
+    "category": "clubs",
+    "source": "https://vitap.ac.in/clubs-and-chapters",
+    "source_type": "official",
+    "last_updated": "2026-07-23"
+  }
+]

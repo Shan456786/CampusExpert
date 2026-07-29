@@ -1,0 +1,68 @@
+[
+  {
+    "id": "campus_map_ab1",
+    "title": "Academic Block 1 (Sarvepalli Radhakrishnan Block)",
+    "keywords": ["academic block 1", "ab1", "sarvepalli radhakrishnan block", "where is ab1"],
+    "aliases": ["where is academic block 1", "admissions office location", "chancellor office location", "vsb location"],
+    "content": "Academic Block 1, also called the Sarvepalli Radhakrishnan Block, spans about 179,090.52 sq. ft. It houses major administrative offices (Chancellor's Office, Admissions Office, Finance Office), the School of Business (VSB), and departments including Computer Science, Mechanical Engineering, and Electrical Engineering, along with classrooms and labs.",
+    "category": "campus_map",
+    "source": "https://vitap.ac.in/infrastructure",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "campus_map_central_block",
+    "title": "Central Block (Mahatma Gandhi Block)",
+    "keywords": ["central block", "mahatma gandhi block", "where is central block"],
+    "aliases": ["where is the central block", "10 storey building", "main administrative building"],
+    "content": "The Central Block, also known as the Mahatma Gandhi Block, is a 10-storey building spanning about 4,61,303 sq. ft. at the heart of the campus. It serves as VIT-AP's administrative hub and academic center, housing departments including Computer Science, Electronics, and Humanities, along with the library, auditorium, cafeteria, and health center.",
+    "category": "campus_map",
+    "source": "https://vitap.ac.in/infrastructure",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "campus_map_ab2",
+    "title": "Academic Block 2 (APJ Abdul Kalam Block)",
+    "keywords": ["academic block 2", "ab2", "apj abdul kalam block", "where is ab2"],
+    "aliases": ["where is academic block 2", "school of advanced sciences location", "school of law location"],
+    "content": "Academic Block 2, also called the APJ Abdul Kalam Block, spans about 183,509.99 sq. ft. It houses the School of Advanced Sciences and School of Social Sciences and Humanities (Departments of Mathematics, Physics, and Languages), along with classrooms, labs, and auditorium space.",
+    "category": "campus_map",
+    "source": "https://vitap.ac.in/infrastructure",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "campus_map_activity_center",
+    "title": "Student Activity Center",
+    "keywords": ["student activity center", "sports complex", "gym", "gymnasium", "indoor sports", "basketball court", "squash court"],
+    "aliases": ["where is the gym", "indoor sports facilities", "where can I play basketball", "food court location"],
+    "content": "The Student Activity Center offers air-conditioned indoor sports facilities including a gymnasium, shuttle (badminton) court, basketball court, squash court, and other indoor games, plus a multi-cuisine food court, guest house, and a mini multi-purpose hall.",
+    "category": "campus_map",
+    "source": "https://vitap.ac.in/infrastructure",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "campus_map_hostels_location",
+    "title": "Hostel Location on Campus",
+    "keywords": ["where are the hostels", "hostel location", "boys hostel", "girls hostel"],
+    "aliases": ["hostel location on campus", "how far are hostels from classes", "are boys and girls hostels separate"],
+    "content": "Hostels are located centrally within the VIT-AP campus for easy access to academic blocks, the library, and other facilities, with separate hostel blocks for boys and girls. For hostel room details and fees, see the Hostel Facilities and Hostel Fee entries.",
+    "category": "campus_map",
+    "source": "https://vitap.ac.in/infrastructure",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "campus_map_directions",
+    "title": "How to Reach VIT-AP",
+    "keywords": ["how to reach", "directions", "address", "location", "google maps", "amaravati location"],
+    "aliases": ["what is the campus address", "how do I get to VIT-AP", "campus GPS location", "directions to VIT-AP"],
+    "content": "VIT-AP University is located beside the AP Secretariat in Amaravati (Inavolu village), Andhra Pradesh, close to Vijayawada and Guntur. The official 'How to Reach VIT-AP' link on the university site opens Google Maps directions directly to the campus.",
+    "category": "campus_map",
+    "source": "https://vitap.ac.in/contact-us",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

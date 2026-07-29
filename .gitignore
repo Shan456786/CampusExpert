@@ -1,0 +1,49 @@
+# CampusExpert - root .gitignore
+# Applies across the whole repo, on top of backend/.gitignore's and
+# frontend/.gitignore's own more specific rules - nested .gitignore files
+# still apply inside their own directories. This file is the repo-wide
+# catch-all so nothing here has to be duplicated per-folder, and so
+# nothing slips through if a new virtual environment, database file, or
+# .env file ever gets created somewhere other than backend/ or frontend/.
+
+# --- Frontend build output & generated files ---
+frontend/node_modules/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+
+# --- Python virtual environments, wherever they show up ---
+# Covers every naming convention seen in this project (backend/venv,
+# backend/venv313) plus the common alternatives, not just one exact name.
+venv/
+.venv/
+venv*/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Environment / secrets files, wherever they show up ---
+.env
+.env.*
+
+# --- Databases, wherever they show up ---
+# Contain password hashes and real student PII (name, registration
+# number, email) once the app has been run - never belongs in version
+# control. Covers SQLite's rollback-journal and WAL side files too, which
+# briefly hold the same data mid-transaction.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo

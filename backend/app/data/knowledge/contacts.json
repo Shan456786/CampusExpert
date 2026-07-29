@@ -1,0 +1,46 @@
+[
+  {
+    "id": "contacts_admissions",
+    "title": "Admissions Office Contact",
+    "keywords": ["admissions", "admission office", "director admissions", "how to apply", "admission enquiry", "admission phone number"],
+    "aliases": ["who do I contact for admissions", "admission office phone number", "admission email", "SRB-G30"],
+    "content": "The Director of Admissions is based in Room No. SRB-G30 on the VIT-AP campus (Beside AP Secretariat, Amaravati, 522241, Andhra Pradesh). Email: admission@vitap.ac.in. Phone: 0863 2370444, or 7901091283 for WhatsApp/mobile enquiries.",
+    "category": "contacts",
+    "source": "https://vitap.ac.in/contact-us",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "contacts_registrar",
+    "title": "Registrar and General Enquiries",
+    "keywords": ["registrar", "general enquiry", "university contact", "main office"],
+    "aliases": ["who is the registrar", "general contact email", "main university office"],
+    "content": "For general (non-admissions) enquiries, the Registrar's office can be reached at info@vitap.ac.in. The main campus address is VIT-AP University, Beside AP Secretariat, Amaravati, 522241, Andhra Pradesh.",
+    "category": "contacts",
+    "source": "https://vitap.ac.in/contact-us",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "contacts_hyderabad_office",
+    "title": "Hyderabad Admissions Office",
+    "keywords": ["hyderabad office", "hyderabad admission", "ameerpet", "vasavi mpm grand"],
+    "aliases": ["is there a VIT-AP office in Hyderabad", "hyderabad contact number", "admission office outside amaravati"],
+    "content": "VIT-AP maintains an additional Admissions Office in Hyderabad: Unit No. 810/2, 7th Floor, Level 8, Vasavi MPM Grand, Yellareddyguda Road, Ameerpet, Hyderabad, 500072, Telangana. Email: admission@vitap.ac.in. Phone: 040 2955 9555, or 7901311658.",
+    "category": "contacts",
+    "source": "https://vitap.ac.in/contact-us",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "contacts_department_directory",
+    "title": "Quick Department Contacts",
+    "keywords": ["department contacts", "quick contacts", "phone numbers", "emergency numbers", "who do I call", "helpline"],
+    "aliases": ["important phone numbers", "campus helplines", "emergency contact list", "department emails"],
+    "content": "Quick reference for common departments: Career Development Centre (placements/internships) - placement@vitap.ac.in, 0863 2370219. Transport (day-scholar buses) - transportservice@vitap.ac.in, 7901091275. Centre of Examinations - helpdesk.coe@vitap.ac.in for general queries, transcript.services@vitap.ac.in for transcripts/certificates. Health Centre emergency ambulance - 7997965624. Admissions - admission@vitap.ac.in, 0863 2370444. For any department not listed here, use the Contact Us page or the Directory link on vitap.ac.in.",
+    "category": "contacts",
+    "source": "https://vitap.ac.in/contact-us",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

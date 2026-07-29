@@ -1,0 +1,57 @@
+[
+  {
+    "id": "student_resources_vtop",
+    "title": "VTOP Student Portal",
+    "keywords": ["vtop", "student portal", "login", "grades", "timetable portal", "course registration portal"],
+    "aliases": ["where do I check my grades", "how do I register for courses", "student login portal", "vtop login"],
+    "content": "VTOP (vtop.vitap.ac.in) is VIT-AP's student portal for course registration (FFCS), timetables, attendance, grades/CGPA, fee payment status, and official notices. It's the primary source for anything account-specific that a general knowledge base can't answer, like a personal attendance percentage or exact fee due date - always defer to VTOP over a general answer for those.",
+    "category": "student_resources",
+    "source": "https://vtop.vitap.ac.in",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "student_resources_webmail",
+    "title": "University Webmail",
+    "keywords": ["webmail", "student email", "vitap mail", "official email"],
+    "aliases": ["how do I check my vitap email", "student email login", "official university email"],
+    "content": "VIT-AP provides students an official university email account, accessible via the webmail portal at mail.vitap.ac.in. Official communications from faculty, CDC, COE, and the administration are sent to this address, so it's worth checking regularly even if a student primarily uses a personal inbox.",
+    "category": "student_resources",
+    "source": "http://mail.vitap.ac.in/",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "student_resources_abc",
+    "title": "Academic Bank of Credits (ABC)",
+    "keywords": ["academic bank of credits", "abc id", "credit transfer", "multiple entry exit"],
+    "aliases": ["what is ABC ID", "how do credits transfer between colleges", "national academic credit bank"],
+    "content": "VIT-AP participates in India's Academic Bank of Credits (ABC), the national digital system (abc.gov.in) that stores and lets students transfer academic credits earned across institutions, supporting the multiple-entry, multiple-exit option under NEP 2020. Students may need to link their ABC ID during admission or credit-transfer processes.",
+    "category": "student_resources",
+    "source": "https://www.abc.gov.in/",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "student_resources_grievance",
+    "title": "Grievance Redressal",
+    "keywords": ["grievance", "complaint", "e-samadhan", "grc", "icc", "anti ragging", "disciplinary"],
+    "aliases": ["how do I file a complaint", "who do I report ragging to", "student grievance committee", "harassment complaint"],
+    "content": "VIT-AP has several dedicated committees for student concerns: the Grievance Redressal Committee (GRC), Anti-Ragging Committee (ARC), Internal Complaints Committee (ICC) for harassment complaints, and the University Disciplinary Committee (UDC). Students can also use the UGC's national e-Samadhan portal (samadhaan.ugc.ac.in) for grievances that need to go beyond the university level.",
+    "category": "student_resources",
+    "source": "https://vitap.ac.in/grc",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  },
+  {
+    "id": "student_resources_faq",
+    "title": "Official FAQ Page",
+    "keywords": ["faq", "frequently asked questions", "common questions"],
+    "aliases": ["where can I find answers to common questions", "official FAQ"],
+    "content": "VIT-AP publishes an official FAQ page covering common admissions and general questions directly from the university. Worth checking there for anything not covered by Campus Expert's own knowledge base.",
+    "category": "student_resources",
+    "source": "https://vitap.ac.in/faq",
+    "source_type": "official",
+    "last_updated": "2026-07-28"
+  }
+]

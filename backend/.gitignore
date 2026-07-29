@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+
+# Local databases - contain password hashes and every user's real PII
+# (full name, registration number, email). Never belongs in version
+# control, same reasoning as .env above. Covers the SQLite rollback
+# journal too (auth.db-journal), which briefly holds the same data
+# mid-transaction.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / OS junk
+.vscode/
+.DS_Store
+Thumbs.db

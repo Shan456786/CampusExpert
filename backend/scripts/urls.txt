@@ -1,0 +1,35 @@
+# Campus Expert - knowledge ingestion source list
+#
+# One seed URL per line. scripts/ingest.py reads this file by default -
+# to expand the knowledge base, add a new URL below and rerun:
+#
+#   cd backend
+#   python scripts/ingest.py
+#
+# No code changes needed. Each URL is crawled (restricted to its own
+# domain), and every page reachable from it gets extracted, chunked,
+# embedded, and stored.
+#
+# Lines starting with # are comments. Blank lines are ignored.
+
+https://vitap.ac.in/hostels
+https://vitap.ac.in/transport
+https://vitap.ac.in/healthcare
+https://vitap.ac.in/cafeteria
+https://vitap.ac.in/bank-and-atm
+https://vitap.ac.in/clubs-and-chapters
+https://vitap.ac.in/sports
+https://vitap.ac.in/faq
+https://vitap.ac.in/fees-and-scholarships
+https://vitap.ac.in/allschools/SCOPE
+https://vitap.ac.in/allschools/SENSE
+https://vitap.ac.in/allschools/SAS
+https://vitap.ac.in/allschools/SMEC
+https://vitap.ac.in/allschools/VISH
+https://vitap.ac.in/allschools/VSB
+https://vitap.ac.in/allschools/VSL
+https://vitap.ac.in/allschools/SBST
+https://vitap.ac.in/allfaculty
+https://vitap.ac.in/academiccalender
+https://vitap.ac.in/ecs
+https://vitap.ac.in/ffcs

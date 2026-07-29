@@ -20,25 +20,32 @@ app = FastAPI(
 # Allow the Next.js frontend to communicate with FastAPI. Still locked
 # down (never "*") since every request already proves who it's from via
 # the Authorization: Bearer <token> header - see app/services/security.py's
-# session tokens - but widened from a single hardcoded
-# "http://localhost:3000" to also match the frontend when it's opened from
-# another device on the same local network (e.g. a phone at
-# http://192.168.1.23:3000, found broken during a pre-demo LAN-access
-# investigation: the old allow_origins list only had the one exact
-# localhost entry, so every request from any other origin - including a
-# legitimate one on the same LAN - got silently rejected before it ever
-# reached a route). allow_origin_regex matches localhost, 127.0.0.0/8, and
-# the three private-network ranges (192.168.0.0/16, 10.0.0.0/8,
-# 172.16.0.0/12) on port 3000 - the frontend's port in every case, dev or
-# LAN. Still excludes the public internet and any other port.
+# session tokens - but the allow-list covers three separate cases now:
+#
+#   1. http://localhost:3000 and http://127.x.x.x:3000 - running the
+#      frontend locally with `npm run dev`.
+#   2. http://<private-LAN-IP>:3000 (192.168.0.0/16, 10.0.0.0/8,
+#      172.16.0.0/12) - opening that same local dev server from another
+#      device on the network, e.g. a phone, for testing on a real screen.
+#   3. https://campus-expert.vercel.app - the deployed production
+#      frontend on Vercel talking to this deployed backend on Railway.
+#      Added after finding the two only had case 1 originally allowed, so
+#      every request from the real deployed frontend was being silently
+#      rejected before it ever reached a route - the frontend and backend
+#      could each be reached directly, but never talk to each other.
+#
+# allow_origin_regex matches all three. Anything else - the public
+# internet generally, any other port, plain http:// to the Vercel host -
+# is still rejected.
 _ALLOWED_ORIGIN_PATTERN = re.compile(
-    r"^http://("
-    r"localhost"
-    r"|127(?:\.\d{1,3}){3}"
-    r"|192\.168(?:\.\d{1,3}){2}"
-    r"|10(?:\.\d{1,3}){3}"
-    r"|172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2}"
-    r"):3000$"
+    r"^("
+    r"http://localhost:3000"
+    r"|http://127(?:\.\d{1,3}){3}:3000"
+    r"|http://192\.168(?:\.\d{1,3}){2}:3000"
+    r"|http://10(?:\.\d{1,3}){3}:3000"
+    r"|http://172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2}:3000"
+    r"|https://campus-expert\.vercel\.app"
+    r")$"
 )
 
 # allow_credentials is deliberately False: it controls whether the browser

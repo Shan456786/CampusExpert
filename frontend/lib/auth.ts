@@ -2,31 +2,28 @@
 // (backend/app/api/auth.py) and for reading/writing the signed-in session
 // in localStorage. Used by the signup, login, profile, and settings pages.
 
-// Was hardcoded to "http://127.0.0.1:8000" - worked fine from the machine
-// running the dev server, but broke every single API call (login, signup,
-// chat, everything) when the app was opened from another device on the
-// local network, e.g. a phone at http://192.168.x.x:3000. On that phone,
-// 127.0.0.1 means "this phone," not "the computer running the backend" -
-// so every fetch() using that URL tried to reach a server that doesn't
-// exist there and failed outright.
+// Previously derived from window.location.hostname (http://<current
+// host>:8000) so the app could be reached from another device on the same
+// local network without configuration. That doesn't extend to a real
+// deployment: in production the frontend (Vercel) and backend (Railway)
+// are two entirely different hosts, not "same machine, different port,"
+// so no formula based on the frontend's own hostname can ever produce the
+// right backend URL - and even if it guessed the right host, guessing
+// "http://" would get blocked outright as mixed content on an https://
+// page like Vercel's.
 //
-// Fix: derive the backend host from whatever hostname the browser is
-// actually using to reach the frontend right now. The backend always runs
-// on port 8000 on the same machine as the frontend (see backend/main.py),
-// so "same hostname the page loaded from, port 8000" is correct whether
-// that hostname is localhost, 127.0.0.1, or a LAN IP - no configuration
-// needed for either case.
+// Now sourced from NEXT_PUBLIC_API_BASE_URL, set per-environment (see the
+// Vercel/Railway/local .env.local setup notes wherever this was changed) -
+// the standard Next.js way to bake a build-time config value into the
+// client bundle. Falls back to the deployed Railway backend if the env
+// var is ever missing, so a misconfigured environment still points
+// somewhere real instead of silently breaking every request.
 //
-// Guarded for SSR: this module is imported by client components, but its
-// top-level exports still get evaluated once during server rendering
-// too, where `window` doesn't exist. The API calls that actually use this
-// value only ever run client-side (inside event handlers and useEffect),
-// so the server-side fallback value here is never actually used to make a
-// request - it just has to not throw.
+// NEXT_PUBLIC_* vars are inlined at build time, so this works identically
+// whether read during SSR or in the browser - no window/SSR guard needed
+// the way the old hostname-based version required one.
 export const API_BASE_URL =
-  typeof window !== "undefined"
-    ? `http://${window.location.hostname}:8000`
-    : "http://127.0.0.1:8000";
+  process.env.NEXT_PUBLIC_API_BASE_URL ?? "https://campusexpert-production.up.railway.app";
 
 export const AUTH_TOKEN_STORAGE_KEY = "campusExpert:authToken";
 export const AUTH_USER_STORAGE_KEY = "campusExpert:user";

@@ -364,7 +364,7 @@ The repository also includes `SECURITY_AUDIT_REPORT.md`, `PERFORMANCE_AUDIT_REPO
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/CampusExpert.git
+git clone https://github.com/Shan456786/CampusExpert.git
 cd CampusExpert
 ```
 
@@ -469,9 +469,7 @@ python test_answer_generator.py   # Generates one grounded answer from sample ev
 
 **Testing on a phone on the same Wi-Fi:** the backend CORS list allows private LAN addresses on port 3000, and `next.config.ts` allows the machine's LAN IPs as dev origins. Run the backend with `--host 0.0.0.0` and set `NEXT_PUBLIC_API_BASE_URL` to `http://<your-LAN-IP>:8000`.
 
-## Screenshots
 
-> Screenshots to be added.
 
 | Screen | Preview |
 |---|---|

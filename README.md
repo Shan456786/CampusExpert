@@ -512,15 +512,18 @@ python test_answer_generator.py   # Generates one grounded answer from sample ev
 - Remove or archive the unused legacy pipeline files.
 - Turn debug logging off through an environment setting in production.
 
+
 ## Author
 
-**[Your Name]**
-Student, [Program / Specialization], [University]
+**Shanmayi Shree Tadala**  
+B.Tech Cybersecurity Student  
+VIT-AP University
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/your-linkedin)
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- **GitHub:** [@Shan456786](https://github.com/Shan456786)
+- **LinkedIn:** [Shanmayi Tadala](https://www.linkedin.com/in/shanmayi-tadala-45955b417/)
+- **Email:** tdshanmmayi@gmail.com
 
+Campus Expert is an independent student project and is not an official VIT-AP University service. Always confirm important information with the university.
 ---
 
 *Campus Expert is an independent student project and is not an official VIT-AP University service. Always confirm important information with the university.*
